@@ -1,0 +1,289 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    min-height: 100%;
+    /* position: relative; */
+    min-width: 840px;
+    font-family: sans-serif;
+    padding: 0;
+}
+
+
+/* 1 */
+
+#blue {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(-45deg, #1faeb8, #1faeb8 50%, #2eb3bc 60%, #2eb3bc);
+    background-size: 50px 50px;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+}
+
+#top {
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+
+#menu {
+    font-size: 2.5rem;
+    height: 100%;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+#pirth {
+    box-shadow: 10px 10px;
+    color: #5c769954;
+}
+
+#mid {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-end
+}
+
+#mid p {
+    font-size: 180%;
+    height: fit-content;
+}
+
+#mid p strong {
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+#mid h1 {
+    font-size: 300%;
+    display: contents;
+    font-family: cursive;
+    font-weight: 100;
+    font-style: italic;
+} 
+
+#mid i{
+    font-size:10px;
+}
+
+#bottom {
+    padding-left: 20%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#download {
+    height: 100%;
+    background: none;
+    border: solid;
+    border-color: #fff;
+    color: #fff;
+    border-width: 1px;
+    width: 18%;
+    font-size: 100%;
+    position: relative;
+}
+
+#phone {
+    height: 15rem;
+}
+
+
+/* 2 */
+
+#grey {
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6.25rem;
+    padding-top: 5rem;
+    font-family: system-ui;
+    align-items :flex-start;
+    font-size: 1rem;
+    height: 100%;
+}
+
+#grey p:nth-child(3) {
+    border-left: solid;
+    border-color: rgb(0 158 255 / 68%);
+    padding-left: 20px;
+    font-style: italic;
+}
+
+#hello {
+    height: 30px;
+    background: none;
+    border: solid;
+    border-color: rgb(6, 218, 98);
+    color: rgb(6, 218, 98);
+    border-width: 1px;
+}
+
+#grey #right {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#tablet{
+    width: 15rem;
+    height: 20rem;
+}
+#grey i{
+    font-size:10px
+}
+
+
+/* 3 */
+
+#white {
+    background-color: #fff;
+    color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+#white #rightdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: sans-serif;
+}
+
+#white h1 {
+    display: block;
+    height: fit-content;
+    width: 60%;
+}
+
+#white p:nth-child(2) {
+    display: block;
+    font-style: italic;
+    font-size: 1rem;
+    height: fit-content;
+}
+
+#white :nth-child(3) {
+    color: rgb(114, 113, 113);
+    display: block;
+    font-style: italic;
+    font-size: 1rem;
+    height: fit-content;
+}
+
+#white div:nth-child(2){
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+#white img {
+    width: 40rem;
+    height: 15rem;
+    padding-top: 25%;
+}
+
+#white button {
+    height: 30px;
+    background: none;
+    border: solid;
+    font-size: 10px;
+    border-color: rgb(225, 12, 147);
+    color: rgb(225, 12, 147);
+    border-width: 1px;
+}
+#white i{
+    font-size: 10px;
+}
+
+/* 4 */
+
+#skyBlue {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(-45deg, #19a595, #19a595 50%, #2ebcb0 60%, #2ebcb0);
+    background-size: 50px 50px;
+    color: #fff;
+    height: 20rem;
+    font-size: 150%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+#skyBlue button {
+    height: 10%;
+    background: none;
+    border: solid;
+    font-size: 10px;
+    border-color: #fff;
+    color: #fff;
+    border-width: 1px;
+}
+#skyBlue i{
+    font-size: 10px;
+}
+
+#bold{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* 5 */
+#end {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#end p{
+    width: 200px;
+}
+
+#end div:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    color: rgba(77, 75, 75, 0.73);
+    border: solid;
+    border-color: rgba(77, 75, 75, 0.18);
+    border-width: 1px;
+    width: 100px;
+    padding-left: 10px;
+}
+#end i{
+    font-size:10px;color: aqua;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
